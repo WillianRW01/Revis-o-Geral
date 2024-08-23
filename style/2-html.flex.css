@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+header{
+    background-color: #303030;
+    color: #fff;
+    padding: 16px;
+    text-align: center;
+}
+
+header a {
+    color:#fff;
+    text-decoration: none;
+    padding: 10 20px;
+    margin-top:20px;
+}
+header a:houver{
+    background-color: #444;
+}
+
+main{
+    padding: 16px;
+    background-color:#e1e1e1;
+}
+
+section{
+
+    background-color:#fff;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    border-radius: 5px;
+    margin: 16px 0;
+    
+}
+
+.movie{
+    display: flex;
+flex-wrap: wrap;
+gap:20px;
+justify-content: center;
+
+}
+
+h2 {    
+width: 100%;
+}
+
+.movie-card{
+    background-color: #444;
+    border:1px solid  #ddd;
+    width: 300px;
+    padding:10px;
+    border-radius:8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition:transform 0.3s ease,box-shadow 0.3s ease;
+}
+
+.movie-card:houver{
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transform: scale(1.05);
+}
+
+.movie-card img {
+    border-radius:4px;
+    width: 100%;
+}
+.movie-card h4{
+    font-size: 18px;
+    margin: 4px;
+    text-align: center;
+}
+
+footer{
+
+    text-align: center;
+    padding: 16px;
+    background-color: #000000;
+    color: #fff;
+    bottom: 0;
+    position: fixed;
+    width: 100%;
+
+}
